@@ -1,0 +1,60 @@
+#body {
+            height: 100vh;
+            /* background: linear-gradient(45deg , red , green , black ); */
+            background: radial-gradient(circle 600px, red, blue);
+            /* background: radial-gradient(ellipse , rgba(153, 0, 255, 0.705) , rgb(136, 108, 16)); */
+        }
+
+        .header {
+            width: 100vw;
+            height: 20%;
+            text-align: center;
+            background-color: blueviolet;
+            
+        }
+
+        .text {
+            display: inline-block;
+            color: aquamarine;
+            width: 200px;
+            height: 100px;
+            margin-top: 10px;
+            line-height: 108px;
+            background: url(/assets/images/3fort.jpg) top / cover , no-repeat;
+            border-radius: 20px ;
+            /* box-shadow: inset 5px -10px 2px red; */
+            border-top: 5px dashed black;
+            border-right: 10px groove orangered;
+            border-bottom: 10px double red;
+            border-left: 10px inset blue;
+        }
+
+        .main {
+            width: 100vw;
+            height: 60%;
+            padding-top: 1px;
+            /* background-color: rgba(0, 255, 255, 0.144);
+            background-image: url(/assets/images/5fort.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; */
+            background-blend-mode: overlay;
+            background: url(/assets/images/5fort.jpg) center / cover , no-repeat linear-gradient(50deg , rgba(255, 0, 0, 0.651) , rgba(0, 128, 0, 0.651) , rgba(0, 0, 255, 0.658) , rgb(107, 9, 9));
+
+        }
+
+        p {
+            font-size: 15px;
+            background-color: chocolate;
+            width: 150px;
+            height: 300px;
+            margin: 10px 0 0 10px;
+            padding: 5px 15px 11px 18px;
+
+        }
+
+        .footer {
+            width: 100vw;
+            height: 20%;
+
+        }
