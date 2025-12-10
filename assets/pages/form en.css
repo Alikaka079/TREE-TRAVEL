@@ -1,0 +1,113 @@
+body{
+background: url(/assets/images/wp2497052.jpg) center / cover , no-repeat;
+text-align: center;
+
+}
+
+.boxsection {
+    width: 500px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgba(251, 252, 253, 0.678);
+    text-align: justify;
+    box-shadow: 1px 2px 5px;
+}
+
+.divsign {
+    padding: 0 0 0 15px;
+    text-align: left;
+    
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    background: linear-gradient(to right ,#c28840 , #1c1c1c);
+    background-clip: text;
+    color: rgba(0, 0, 0, 0.068);
+    display: inline-block;
+    padding: 0 0 0 5px;
+}
+.divsign span {
+    color: brown;
+}
+.divsign h5 {
+    font-size: 15px;
+    padding: 0 0 0 5px;
+}
+.form{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+.form .Name{
+    text-align: justify;
+    width: 45%;
+    display: inline-block;
+
+    
+}
+.Name input{
+    border: none;
+    background: linear-gradient(to right ,#c28840 , #1c1c1c );
+    height: 35px;
+    border-radius: 100px;
+}
+.form .inputline{
+    text-align: justify;
+    width: 90%;
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
+
+input{
+    width: 90%;
+    border: none;
+    background: linear-gradient(to right ,#c28840 , #1c1c1c );
+    height: 35px;
+    border-radius: 100px;
+} 
+.checkbox{
+    margin: 5px 0 0 0;
+    text-align: justify;
+    padding: 0 0 0 25px;
+}
+.checkbox label{
+    font-size: 14px;
+    vertical-align: super;
+}
+.checkbox input{
+    
+    vertical-align: sub ; 
+    width: 15px; 
+}
+.submit{
+    margin: auto;
+    width: 25%;
+    padding: 0 0 15px 0;
+    
+}
+/* button{
+    background:linear-gradient(to right , #ff8a00 , #FAFF00);
+    width: 60%;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+} */
+.Name input::placeholder{
+    color: gold;
+    text-align: center;
+}
+.form input::placeholder{
+    color: gold;
+    padding: 0 0 0 5px;
+}
+.gender {
+    text-align: justify;
+    display: block;
+    padding: 10px 0 0 25px;
+    
+    
+}

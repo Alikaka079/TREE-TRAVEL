@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Tanha;
+    src: url(/assets/Font/persianFont/tanha-font-v0.9/Tanha.woff);
+    src: url(/assets/Font/persianFont/tanha-font-v0.9/Tanha.woff2);
+}
+
+#body {
+    direction: rtl;
+    font-family: Tanha;
+    padding: 0;
+    margin: 0;
+    background: center / cover, no-repeat;
+    background-color: rgb(114, 113, 113);
+}
+
+
+/*شروع هدر  */
+header {
+    padding-top: 1px;
+    text-align: center;
+    background-color: aqua;
+    width: 100vw;
+    height: 150px;
+}
+
+nav ul li {
+    padding: 15px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 900;
+}
+
+/* پایان هدر */
+
+/*  شروع مین */
+main {
+
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+    background: url(/assets/images/3fort.jpg) center / cover, no-repeat;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.582);
+
+}
+
+table {
+    display: inline-block;
+    cursor: pointer;
+    border-collapse: collapse;
+    color: black;
+}
+
+/* tr:hover{
+    background-color: white;
+} */
+/* tr:nth-child(even) {
+  background-color: #D6EEEE;
+} */
+tr th {
+    width: 300px;
+    border: 2px solid white;
+
+}
+
+tr td {
+    border: 2px solid white;
+}
+
+/* پایان مین */
+
+footer {
+    background-color: brown;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.img {
+    background-color: brown;
+    display: inline-block;
+
+}
