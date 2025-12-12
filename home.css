@@ -86,5 +86,6 @@ footer {
 .img {
     background-color: brown;
     display: inline-block;
+    box-shadow: 10px 2px 0;
 
 }
