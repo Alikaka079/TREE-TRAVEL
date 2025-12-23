@@ -23,20 +23,18 @@ body{
 .glass-container{
     border-radius: 10px;
     box-shadow: 0 0 8px rgba(255, 255, 255, 1);
-    text-align: center;
     width: 980px;
     height: 620px;
     background-image: url(/assets/images/front.jpg);
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    
 }
 nav{
     display: flex;
     padding: 30px 8%;
 }
 .logo{
-    font-size: 22px;
+    font-size: 25px;
     color: #fff;
     cursor: pointer;
 
@@ -74,4 +72,57 @@ img{
 }
 img:hover{
     border: 2px solid #fff;
+}
+h3{
+    color: #fff;
+    margin: 80px 110px -25px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+h1{
+    color: #fff;
+    margin: 0 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150px;
+    letter-spacing: 10px;
+    opacity: 0.6;
+    background-image: linear-gradient(45deg, #000, #fff,#000,#fff,#000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.icons i{
+    color: #fff;
+}
+.icons{
+display: flex;
+margin-top: 80px;
+margin-right: 50px;
+
+}
+.icons{
+    flex: 1;
+    text-align: right;
+
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+.icons ul li i{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+.icons ul li i:hover{
+    color: aqua;
+
+    
 }
