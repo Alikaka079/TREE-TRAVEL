@@ -74,64 +74,7 @@ input:focus {
     outline: none;
 }
 
-a:hover {
-    
-    transition: all 1.6s;
-    text-decoration-line: overline;
-    text-decoration-color: green;
-    padding: 0 10px 0 10px;
 
-}
 
-a:active {
-    background-color: blue;
-}
 
-a:focus {
-    background-color: olivedrab;
 
-}
-
-a:visited {
-    background-color: rgb(0, 255, 234);
-
-}
-
-.box1{
-    background-color: yellow;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    right: 50px;
-    top: 200px;
-}
-
-.box2{    
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    right: 400px;
-    bottom: 400px;
-    background-image: url(/assets/images/2fort.jpg);
-}
-.box3{    
-    background-color: red;
-    width: 300px;
-    height: 300px;
-    
-}
-
-@media (max-width: 400px) {
-    
-    li {
-        width: 100%;
-        text-align: center;
-        
-    }
-    a {
-        width: 100px;
-        height: 30px;
-    }
-    
-}
