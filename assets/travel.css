@@ -3,13 +3,14 @@
     src: url(/assets/Font/persianFont/vazir-font-v18.0.0/Vazir-Bold.woff) format('woff');
     src: url(/assets/Font/persianFont/vazir-font-v18.0.0/Vazir-Bold.woff2) format('woff2');
 } */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     background-image: url(/assets/images/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,49 +21,56 @@ body{
     justify-content: center;
     backdrop-filter: blur(3px);
 }
-.glass-container{
+
+.glass-container {
     border-radius: 10px;
     box-shadow: 0 0 8px rgba(255, 255, 255, 1);
     width: 980px;
     height: 620px;
     background-image: url(/assets/images/front.jpg);
     background-repeat: no-repeat;
-    
+
 }
-nav{
+
+nav {
     display: flex;
     padding: 30px 8%;
 }
-.logo{
+
+.logo {
     font-size: 25px;
     color: #fff;
     cursor: pointer;
 
 }
-nav ul{
+
+nav ul {
     flex: 1;
     text-align: right;
 
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     transition: 0.1s ease-out;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     border-bottom: 2px solid #fff;
 
 }
-nav ul li a{
+
+nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 
 }
-img{
+
+img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -70,10 +78,12 @@ img{
     margin-top: -7px;
     transition: 0.1 ease;
 }
-img:hover{
+
+img:hover {
     border: 2px solid #fff;
 }
-h3{
+
+h3 {
     color: #fff;
     margin: 80px 110px -25px;
     font-style: italic;
@@ -81,48 +91,55 @@ h3{
     font-size: 18px;
     letter-spacing: 1px;
 }
-h1{
+
+h1 {
     color: #fff;
     margin: 0 110px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 150px;
     letter-spacing: 10px;
     opacity: 0.6;
-    background-image: linear-gradient(45deg, #000, #fff,#000,#fff,#000);
+    background-image: linear-gradient(45deg, #000, #fff, #000, #fff, #000);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
 }
-.icons i{
+
+.icons i {
     color: #fff;
 }
-.icons{
-display: flex;
-margin-top: 80px;
-margin-right: 50px;
+
+.icons {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 50px;
 
 }
-.icons{
+
+.icons {
     flex: 1;
     text-align: right;
 
 }
-.icons ul li{
+
+.icons ul li {
     list-style: none;
     display: inline-block;
     margin: 15px;
     padding: 10px;
 }
-.icons ul li i{
+
+.icons ul li i {
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
     transition: 0.1s all;
 }
-.icons ul li i:hover{
+
+.icons ul li i:hover {
     color: aqua;
 
-    
+
 }
